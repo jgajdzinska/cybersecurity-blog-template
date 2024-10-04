@@ -140,3 +140,29 @@ header h1 {
 .read-more:hover {
     background-color: #bbc2c5;
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.pagination a {
+    color: #232f34;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 0px 5px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #8fa1a9;
+    color: #232f34;
+}
+
+.pagination a.active {
+    background-color: #8fa1a9;
+    color: #232f34;
+    border: none;
+}
