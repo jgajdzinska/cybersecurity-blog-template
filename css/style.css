@@ -36,3 +36,20 @@ header h1 {
     width: 100px;
     height: auto;
 }
+
+.navbar {
+    background-color: #8fa1a9;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #232f34;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #bbc2c5;
+}
