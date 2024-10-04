@@ -53,3 +53,90 @@ header h1 {
 .navbar a:hover {
     background-color: #bbc2c5;
 }
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+.post-container {
+    flex: 3;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.post {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 2px solid #232f34;
+    padding-bottom: 20px;
+}
+
+.post img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+    flex: 1;
+}
+
+.post div {
+   flex: 3; 
+}
+
+.post-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post-title a {
+    color: #232f34;
+    text-decoration: none;
+}
+
+.post-content span a {
+    padding: 5px;
+    padding-left: 0;
+    color: blue;
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    text-decoration: none;
+}
+
+.post-description {
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.read-more-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.read-more {
+    background-color: #8fa1a9;
+    color: #232f34;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    background-color: #bbc2c5;
+}
