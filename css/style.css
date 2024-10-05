@@ -269,3 +269,28 @@ header h1 {
     font-size: 8px;
     padding: 8px;
 }
+
+.footer {
+    background-color: #8fa1a9;
+    color: #232f34;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #232f34;
+    text-decoration: none;    
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .fa:hover {
+    text-decoration: none;
+}
