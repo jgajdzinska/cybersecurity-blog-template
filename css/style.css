@@ -190,6 +190,7 @@ header h1 {
 }
 
 .search-bar {
+    margin-bottom: 20px;
     padding: 50px 50px;
     box-sizing: border-box;
 }
@@ -293,4 +294,64 @@ header h1 {
 
 .footer .fa:hover {
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .post, .recent-post {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .post img, .recent-post img {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100px;
+        height: auto;
+    }
+
+    .post-container, .sidebar {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .read-more-container {
+        justify-content: flex-start;
+    }
+
+    .search-bar i {
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 1230px;
+    }
+
+    .search-bar input {
+        width: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar a {
+        display: block;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .post-title {
+        font-size: 20px;
+    }
+
+    .search-bar i {
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 1348px;
+    }
+
+    .search-bar input {
+        margin: 180px;
+        width: 245px;
+    }
 }
